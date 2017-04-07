@@ -1,0 +1,24 @@
+{
+  "name": "familybudget",
+  "version": "1.0.0",
+  "description": "Future Imperfect by HTML5 UP\r html5up.net | @ajlkn\r Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)",
+  "main": "app/logic/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-main-bower-files": "^1.5.3",
+    "gulp-webserver": "^0.9.1",
+    "jasmine": "^2.5.2",
+    "karma": "^1.5.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.0.2",
+    "main-bower-files": "^2.13.1",
+    "mocha": "^3.2.0",
+    "protractor": "^5.1.1"
+  }
+}

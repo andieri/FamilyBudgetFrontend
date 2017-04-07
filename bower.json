@@ -1,0 +1,25 @@
+{
+  "name": "familybudget",
+  "authors": [
+    "212566304 <andreaerika.sutnekovacs@ge.com>"
+  ],
+  "description": "AWS PET project",
+  "main": "src/logic/index.js",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "tests"
+  ],
+  "dependencies": {
+    "angularjs-datepicker": "^2.1.6",
+    "angular-chart.js": "^1.0.3",
+    "ui-router.login": "^0.3.4"
+  },
+  "devDependencies": {
+    "ui-router.login": "^0.3.4",
+    "protractor": "^4.0.9"
+  }
+}

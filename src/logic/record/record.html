@@ -1,0 +1,18 @@
+<div>
+    <div>
+        <div>
+            <div>Add a new receipt</div>
+            <div>Item type:</div>
+            <input type="text" placeholder="Item type" ng-model="record.type">
+            <div>Buying date:</div>
+            <datepicker date-format="yyyy-MM-dd">
+                <input ng-model="record.date" type="text" placeholder="Choose a date"/>
+            </datepicker>
+            <div>Price</div>
+            <input type="text" placeholder="Price" ng-model="record.price">
+        </div>
+    </div>
+</div>
+<div>
+    <br/><a class="button" href="javascript:void(0)" ng-click="saveRecord()"><i class="fa fa-floppy-o fa-lg" aria-hidden="true"></i></a>
+</div>
